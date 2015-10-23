@@ -1,0 +1,148 @@
+﻿
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #23527C;
+  position: relative;
+}
+
+
+
+/*************************
+*******Header CSS******
+**************************/
+
+.header {
+	 
+}
+
+
+.heading{
+  font-family: 'Roboto', sans-serif;
+}
+.heading a span{
+	display: block;
+	font-size : 18px;
+    padding: 6px 15px 5px;
+	font-weight: bold;
+	color: #5180aa;
+}
+.heading a {
+	text-decoration: none;
+}
+.heading :hover{
+	background:inherit;
+}
+
+
+.navigation ul li{
+	display:inline-block;
+}
+
+.navigation ul li a i {
+  padding: 0px 0px;
+  transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+}
+
+.navigation ul li a i:hover{
+  color: black;
+   transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+}
+
+
+.fa-facebook:hover {
+  background: #0083C9;
+}
+
+.fa-twitter:hover  {
+	background:#5BBCEC;
+}
+
+.fa-linkedin:hover  {
+	background:#FF4518;
+}
+
+.fa-google-plus:hover  {
+	background:#CE3C2D;
+}
+
+
+
+/* Footer */
+
+#foot {
+	
+}
+
+.social-icons ul li a {
+  border: 0 none;
+  border-radius: 0;
+  color: #696763;
+  padding:0px;
+}
+
+
+.social-icons ul li{
+	display:inline-block;
+}
+
+.social-icons ul li a{
+  padding: 6px 5px;
+   transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+}
+
+.social-icons ul li a:hover{
+  color: #fff;
+   transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+}
+
+
+.fa-facebook:hover {
+  background: #0083C9;
+}
+
+.fa-twitter:hover  {
+	background:#5BBCEC;
+}
+
+.fa-linkedin:hover  {
+	background:#FF4518;
+}
+
+.fa-google-plus:hover  {
+	background:#CE3C2D;
+}
+
+.copyright{
+  font-size: 12px;
+  color: #696763;
+  font-family: 'Roboto', sans-serif;
+}
+.copyright span{
+	display: block;
+	font-size : 15px;
+    padding: 8px 15px;
+	color: #5180aa;
+}
+
+.copyright :hover{
+	background:inherit;
+}
+
+.login-panel {
+	margin: 140px 0px 0px 0px;
+}
+.register-panel {
+	margin: 20px 0px 0px 0px;
+}

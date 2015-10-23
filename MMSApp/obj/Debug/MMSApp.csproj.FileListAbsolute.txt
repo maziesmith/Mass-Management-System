@@ -1,0 +1,19 @@
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\MMSApp\MMSApp\bin\MMSApp.dll.config
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\MMSApp\MMSApp\bin\MMSApp.dll
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\MMSApp\MMSApp\bin\MMSApp.pdb
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\MMSApp\MMSApp\bin\Newtonsoft.Json.dll
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\MMSApp\MMSApp\bin\Newtonsoft.Json.xml
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\MMSApp\MMSApp\obj\Debug\MMSApp.dll
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\MMSApp\MMSApp\obj\Debug\MMSApp.pdb
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\MMSApp\MMSApp\obj\Debug\MMSApp.csprojResolveAssemblyReference.cache
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\asp.net webform\MMSApp\MMSApp\bin\MMSApp.dll.config
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\asp.net webform\MMSApp\MMSApp\bin\MMSApp.dll
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\asp.net webform\MMSApp\MMSApp\bin\MMSApp.pdb
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\asp.net webform\MMSApp\MMSApp\bin\Microsoft.Owin.dll
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\asp.net webform\MMSApp\MMSApp\bin\Newtonsoft.Json.dll
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\asp.net webform\MMSApp\MMSApp\bin\Owin.dll
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\asp.net webform\MMSApp\MMSApp\bin\Microsoft.Owin.xml
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\asp.net webform\MMSApp\MMSApp\bin\Newtonsoft.Json.xml
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\asp.net webform\MMSApp\MMSApp\obj\Debug\MMSApp.dll
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\asp.net webform\MMSApp\MMSApp\obj\Debug\MMSApp.pdb
+E:\BASIS _SEIP - Practice (.NET)\Complete Project ASP.NET\asp.net webform\MMSApp\MMSApp\obj\Debug\MMSApp.csprojResolveAssemblyReference.cache

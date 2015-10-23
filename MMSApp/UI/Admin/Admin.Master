@@ -1,0 +1,148 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="MMSApp.UI.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MMS - Admin Panel</title>
+    <!-- Bootstrap CSS -->
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="../../Content/bootstrap-datepicker.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link href="../../Content/custom-style.css" rel="stylesheet" />
+
+    <!-- Bootstrap Jquery -->
+    <script src="../../Scripts/jquery-2.1.4.min.js"></script>
+    <script src="../../Scripts/bootstrap.min.js"></script>
+    <script src="../../Scripts/jquery.validate.js"></script>
+    <script src="../../Scripts/bootstrap-datepicker.js"></script>
+
+    <style>
+        label.error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Start Header Part -->
+    <header>
+        <!-- header -->
+        <div class="header" style="background: #00476C;">
+            <!-- header-top -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="navigation pull-left">
+                            <%--<a href="../Index.aspx"><span>Mess Management System</span></a>--%>
+                            <ul class="nav nav-pills">
+                                <li role="presentation" class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Member <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../Admin/AddMember.aspx">Add Member</a></li>
+                                        <li><a href="../Admin/MemberInformation.aspx">Member Information</a></li>
+                                    </ul>
+                                </li>
+                                <li role="presentation" class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">BazaarList <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../Admin/AddBazaarList.aspx">Add BazaarList</a></li>
+                                        <li><a href="../Admin/BazaarListInformation.aspx">BazaarList Information</a></li>
+                                    </ul>
+                                </li>
+                                <li role="presentation" class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Bazaar <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../Admin/AddBazaar.aspx">Add Bazaar</a></li>
+                                        <li><a href="../Admin/BazaarInformation.aspx">Bazaar Information</a></li>
+                                    </ul>
+                                </li>
+                                <li role="presentation" class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Meal <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../Admin/AddMeal.aspx">Add Meal</a></li>
+                                        <li><a href="../Admin/MealInformation.aspx">Meal Information</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Total Bill</a></li>
+                                <li><a href="#">Notice</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="navigation pull-right">
+                            <ul class="nav nav-pills">
+                                <%-- <li><a href="../Login.aspx">
+                                        <i>Hi, 
+                                            <% Eval(Session["UserInfo"].ToString()); %>
+                                        </i>
+                                    </a></li>--%>
+                                <li><a href="../Admin/Register.aspx"><i>Register</i></a></li>
+                                <li><a href="../Login.aspx"><i>Log out</i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end header-top -->
+
+
+    </header>
+    <!-- end header -->
+    <!-- Close Header Part -->
+
+
+    <!-- Start Body Content Part -->
+    <div class="container">
+        <div class="row">
+            <!-- Start Add Body Content -->
+                <asp:ContentPlaceHolder ID="addBodyContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            <!-- Close Add Body Content -->
+
+            <!-- Start Show Body Content -->
+                <asp:ContentPlaceHolder ID="showBodyContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            <!-- Close Show Body Content -->
+        </div>
+    </div>
+    <!-- Close Body Content Part -->
+
+
+    <!-- Start Footer Part -->
+    <div id="foot" class="nav navbar-fixed-bottom" role="navigation" style="background: #00476C;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="copyright">
+                        <span><i>Design By ...</i></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="social-icons pull-right">
+                        <ul class="nav nav-pills" style="opacity: 0.5;">
+                            <li><a href="#">
+                                <img src="../../images/icons/facebook.png" alt="Facebook icon" /></a></li>
+                            <li><a href="#">
+                                <img src="../../images/icons/twitter.png" alt="Twitter icon" /></a></li>
+                            <li><a href="#">
+                                <img src="../../images/icons/linkedin.png" alt="Linkedin icon" /></a></li>
+                            <li><a href="#">
+                                <img src="../../images/icons/google-plus.png" alt="Google-plus icon" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Close Footer Part -->
+
+</body>
+</html>
